@@ -1,0 +1,28 @@
+site_name: DREAM.3D
+theme:
+  name: 'material'
+  custom_dir: './dream3d'
+  palette:
+    primary: light-blue
+    accent: light-blue
+repo_url: https://github.com/bluequartzsoftware/dream3d/
+docs_dir: ReferenceManual
+site_dir: './build'
+
+markdown_extensions:
+    - toc:
+        permalink: True
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite(guess_lang=false)
+  - toc(permalink=true)
+
+extra:
+  palette:
+    primary: 'blue'
+    accent: 'bluegrey'
+
+extra_css:
+  - 'assets/stylesheets/extra.css'

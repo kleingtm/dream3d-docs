@@ -1,0 +1,471 @@
+# This file is Auto Generated at CMake Time from the "Doxyfile.in" file.
+#---------------------------------------------------------------------------
+# Project related configuration options
+#---------------------------------------------------------------------------
+PROJECT_NAME      = "DREAM.3D v6 User Manual"
+OUTPUT_DIRECTORY  = "/Users/mjackson/Workspace/DREAM3D-Build/Debug/Bin/Help"
+
+#---------------------------------------------------------------------------
+# configuration options related to warning and progress messages
+#---------------------------------------------------------------------------
+QUIET             = YES
+WARNINGS          = YES
+
+DISABLE_INDEX     = YES
+ENABLE_PREPROCESSING = NO
+CASE_SENSE_NAMES  = NO
+
+EXTRACT_ALL       = NO
+EXTRACT_PRIVATE   = NO
+
+GENERATE_MAN      = NO
+GENERATE_HTMLHELP = NO
+
+#---------------------------------------------------------------------------
+# configuration options related to the RTF output
+#---------------------------------------------------------------------------
+GENERATE_RTF = NO
+RTF_OUTPUT = rtf
+COMPACT_RTF = NO
+RTF_HYPERLINKS = NO
+RTF_STYLESHEET_FILE =
+RTF_EXTENSIONS_FILE =
+
+#---------------------------------------------------------------------------
+# configuration options related to the input files
+#---------------------------------------------------------------------------
+IMAGE_PATH        = "/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/Images" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/SupportedFileFormats/Images" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/UsingDREAM3D/Images" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/Tutorials/Images" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/Tutorials/CroppingImages" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/AuxiliaryTools/Images" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/AuxiliaryTools/Images/DevHelper" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/Developer/Images" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/Images" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Generic/Documentation/GenericFilters/Images" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/ImageIO/Documentation/ImageIOFilters/Images" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/IO/Documentation/IOFilters/Images" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/Images" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Statistics/Documentation/StatisticsFilters/Images" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SurfaceMeshing/Documentation/SurfaceMeshingFilters/Images" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SyntheticBuilding/Documentation/SyntheticBuildingFilters/Images" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/StatsGenerator/Documentation/StatsGeneratorFilters/Images" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/FiberToolbox/Documentation/FiberToolboxFilters/Images" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ImageProcessing/Documentation/ImageProcessingFilters/Images" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/UCSBUtilities/Documentation/UCSBUtilitiesFilters/Images"
+INPUT             = "/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/Index.dox" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/Index.dox" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/Acknowledgements.md" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/DataStructure.md" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/UsingDREAM3D/UsingDREAM3D.dox" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/UsingDREAM3D/UserInterface.md" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/UsingDREAM3D/CreatingPipeline.md" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/UsingDREAM3D/ImportExportPipelines.md" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/SupportedFileFormats/SupportedFileFormats.dox" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/SupportedFileFormats/NativeDREAM3DFileFormat.md" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/SupportedFileFormats/XdmfForVisualization.md" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/SupportedFileFormats/MiscFileFormats.md" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/SupportedFileFormats/H5EbsdFile.md" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/Tutorials/Tutorials.dox" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/Tutorials/EBSDReconstruction.md" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/Tutorials/SurfaceMeshing.md" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/Tutorials/SyntheticSinglePhase.md" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/Tutorials/CroppingData.md" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/AuxiliaryTools/DevHelper.md" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/AuxiliaryTools/PipelineRunner.md" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/AuxiliaryTools/AuxiliaryTools.dox" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/ReleaseNotes/ReleaseNotes.dox" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/ReleaseNotes/ReleaseNotes_6_0_0.md" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/ReleaseNotes/ReleaseNotes_6_1_0.md" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/ReleaseNotes/ReleaseNotes_6_2_0.md" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/ReleaseNotes/ReleaseNotes_6_3_0.md" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/ReleaseNotes/ReleaseNotes_6_4_0.md" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/Developer/CodeGuidelines.md" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/Developer/CompilerSuite.md" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/Developer/CreatingAFilter.md" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/Developer/Developer.dox" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/Developer/Linux_Configuring_and_Building_DREAM3D.md" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/Developer/OSX_Configuring_and_Building_DREAM3D.md" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/Developer/RepositoryLayout.md" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/Developer/SDKInstall.md" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/Developer/SourceDownload.md" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/Developer/Windows_Configuring_and_Building_DREAM3D.md" \
+"/Users/mjackson/Workspace/DREAM3D/Documentation/ReferenceManual/Developer/WritingAFilter.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/ArrayCalculator.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/CombineAttributeArrays.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/CombineAttributeMatrices.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/ConditionalSetValue.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/ConvertData.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/CopyFeatureArrayToElementArray.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/CreateAttributeMatrix.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/CreateDataContainer.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/CreateDataArray.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/CreateFeatureArrayFromElementArray.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/CreateImageGeometry.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/CreateStringArray.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/DataContainerReader.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/DataContainerWriter.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/ExecuteProcess.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/ExtractComponentAsArray.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/FeatureCountDecision.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/FeatureDataCSVWriter.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/FindDerivatives.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/GenerateColorTable.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/ImportAsciDataArray.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/LinkFeatureMapToElementArray.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/MaskCountDecision.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/MoveData.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/MoveMultiData.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/MultiThresholdObjects.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/MultiThresholdObjects2.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/PostSlackMessage.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/RawBinaryReader.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/ReadASCIIData.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/RemoveArrays.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/RemoveComponentFromArray.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/RenameAttributeArray.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/RenameAttributeMatrix.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/RenameDataContainer.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/ReplaceValueInArray.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/RequiredZThickness.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/ScaleVolume.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/SetOriginResolutionImageGeom.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/WriteASCIIData.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/CoreFilters/WriteTriangleGeometry.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/TestFilters/ThresholdExample.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/TestFilters/ArraySelectionExample.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/TestFilters/GenericExample.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/TestFilters/DynamicTableExample.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/TestFilters/MakeDataContainer.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/TestFilters/ErrorWarningFilter.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/TestFilters/FilterGroup01.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/TestFilters/FilterGroup02.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/TestFilters/FilterGroup03.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/TestFilters/FilterGroup04.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/TestFilters/FilterGroup05.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/TestFilters/FilterGroup06.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/TestFilters/FilterGroup07.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/TestFilters/FilterGroup08.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/TestFilters/FilterGroup09.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/TestFilters/FilterGroup10.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/TestFilters/FilterGroup12.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/SIMPL/Source/SIMPLib/Documentation/SIMPLibFilters/TestFilters/FilterGroup13.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/EMMPM/Documentation/EMMPMFilters/EMMPMFilter.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/EMMPM/Documentation/EMMPMFilters/MultiEmmpmFilter.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Generic/Documentation/GenericFilters/FindBoundaryCells.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Generic/Documentation/GenericFilters/FindBoundingBoxFeatures.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Generic/Documentation/GenericFilters/FindFeatureCentroids.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Generic/Documentation/GenericFilters/FindFeaturePhases.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Generic/Documentation/GenericFilters/FindFeaturePhasesBinary.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Generic/Documentation/GenericFilters/FindSurfaceFeatures.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Generic/Documentation/GenericFilters/GenerateVectorColors.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/ImageIO/Documentation/ImageIOFilters/ImportImageStack.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/ImageIO/Documentation/ImageIOFilters/ImportVectorImageStack.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/ImageIO/Documentation/ImageIOFilters/WriteImages.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/IO/Documentation/IOFilters/AbaqusHexahedronWriter.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/IO/Documentation/IOFilters/AbaqusSurfaceMeshWriter.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/IO/Documentation/IOFilters/AvizoRectilinearCoordinateWriter.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/IO/Documentation/IOFilters/AvizoUniformCoordinateWriter.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/IO/Documentation/IOFilters/DxReader.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/IO/Documentation/IOFilters/DxWriter.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/IO/Documentation/IOFilters/FeatureInfoReader.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/IO/Documentation/IOFilters/GBCDTriangleDumper.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/IO/Documentation/IOFilters/LosAlamosFFTWriter.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/IO/Documentation/IOFilters/PhReader.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/IO/Documentation/IOFilters/PhWriter.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/IO/Documentation/IOFilters/ReadStlFile.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/IO/Documentation/IOFilters/SPParksTextReader.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/IO/Documentation/IOFilters/SPParksWriter.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/IO/Documentation/IOFilters/VisualizeGBCDGMT.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/IO/Documentation/IOFilters/VisualizeGBCDPoleFigure.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/IO/Documentation/IOFilters/VtkRectilinearGridWriter.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/IO/Documentation/IOFilters/VtkStructuredPointsReader.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/IO/Documentation/IOFilters/WriteStlFile.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/BadDataNeighborOrientationCheck.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/ChangeAngleRepresentation.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/ConvertHexGridToSquareGrid.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/ConvertOrientations.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/CreateEnsembleInfo.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/CreateLambertSphere.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/EbsdToH5Ebsd.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/EnsembleInfoReader.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/FindAvgCAxes.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/FindAvgOrientations.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/FindBoundaryStrengths.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/FindCAxisLocations.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/FindFeatureNeighborCAxisMisalignments.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/FindFeatureReferenceCAxisMisorientations.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/FindFeatureReferenceMisorientations.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/FindKernelAvgMisorientations.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/FindMisorientations.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/FindSchmids.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/FindSlipTransmissionMetrics.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/FindTwinBoundaries.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/FindTwinBoundarySchmidFactors.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/INLWriter.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/GenerateIPFColors.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/NeighborOrientationCorrelation.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/ReadAngData.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/ReadCtfData.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/ReadEdaxH5Data.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/ReadH5Ebsd.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/ReplaceElementAttributesWithNeighborValues.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/RotateEulerRefFrame.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/WriteIPFStandardTriangle.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/WritePoleFigure.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/WriteStatsGenOdfAngleFile.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/OrientationUtility.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/OrientationAnalysis/Documentation/OrientationAnalysisFilters/Stereographic3D.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Processing/Documentation/ProcessingFilters/ConvertColorToGrayScale.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Processing/Documentation/ProcessingFilters/ErodeDilateBadData.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Processing/Documentation/ProcessingFilters/ErodeDilateCoordinationNumber.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Processing/Documentation/ProcessingFilters/ErodeDilateMask.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Processing/Documentation/ProcessingFilters/FillBadData.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Processing/Documentation/ProcessingFilters/FindProjectedImageStatistics.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Processing/Documentation/ProcessingFilters/FindRelativeMotionBetweenSlices.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Processing/Documentation/ProcessingFilters/IdentifySample.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Processing/Documentation/ProcessingFilters/InitializeData.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Processing/Documentation/ProcessingFilters/MinNeighbors.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Processing/Documentation/ProcessingFilters/MinSize.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Processing/Documentation/ProcessingFilters/RemoveFlaggedFeatures.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Reconstruction/Documentation/ReconstructionFilters/AlignSectionsFeature.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Reconstruction/Documentation/ReconstructionFilters/AlignSectionsFeatureCentroid.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Reconstruction/Documentation/ReconstructionFilters/AlignSectionsList.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Reconstruction/Documentation/ReconstructionFilters/AlignSectionsMisorientation.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Reconstruction/Documentation/ReconstructionFilters/AlignSectionsMutualInformation.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Reconstruction/Documentation/ReconstructionFilters/CAxisSegmentFeatures.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Reconstruction/Documentation/ReconstructionFilters/EBSDSegmentFeatures.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Reconstruction/Documentation/ReconstructionFilters/MergeColonies.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Reconstruction/Documentation/ReconstructionFilters/MergeTwins.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Reconstruction/Documentation/ReconstructionFilters/ScalarSegmentFeatures.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Reconstruction/Documentation/ReconstructionFilters/ComputeFeatureRect.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Sampling/Documentation/SamplingFilters/AppendImageGeometryZSlice.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Sampling/Documentation/SamplingFilters/ChangeResolution.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Sampling/Documentation/SamplingFilters/CropImageGeometry.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Sampling/Documentation/SamplingFilters/ExtractFlaggedFeatures.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Sampling/Documentation/SamplingFilters/NearestPointFuseRegularGrids.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Sampling/Documentation/SamplingFilters/RegularGridSampleSurfaceMesh.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Sampling/Documentation/SamplingFilters/RegularizeZSpacing.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Sampling/Documentation/SamplingFilters/RotateSampleRefFrame.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Sampling/Documentation/SamplingFilters/SampleSurfaceMeshSpecifiedPoints.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Sampling/Documentation/SamplingFilters/UncertainRegularGridSampleSurfaceMesh.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Sampling/Documentation/SamplingFilters/WarpRegularGrid.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Statistics/Documentation/StatisticsFilters/CalculateArrayHistogram.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Statistics/Documentation/StatisticsFilters/ComputeMomentInvariants2D.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Statistics/Documentation/StatisticsFilters/FindAvgScalarValueForFeatures.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Statistics/Documentation/StatisticsFilters/FindBoundaryElementFractions.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Statistics/Documentation/StatisticsFilters/FindDifferenceMap.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Statistics/Documentation/StatisticsFilters/FindEuclideanDistMap.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Statistics/Documentation/StatisticsFilters/FindFeatureClustering.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Statistics/Documentation/StatisticsFilters/FindLargestCrossSections.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Statistics/Documentation/StatisticsFilters/FindNeighborhoods.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Statistics/Documentation/StatisticsFilters/FindNeighbors.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Statistics/Documentation/StatisticsFilters/FindNumFeatures.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Statistics/Documentation/StatisticsFilters/FindShapes.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Statistics/Documentation/StatisticsFilters/FindSizes.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Statistics/Documentation/StatisticsFilters/FindSurfaceAreaToVolume.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Statistics/Documentation/StatisticsFilters/FindVolFractions.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Statistics/Documentation/StatisticsFilters/FitFeatureData.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/Statistics/Documentation/StatisticsFilters/GenerateEnsembleStatistics.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SurfaceMeshing/Documentation/SurfaceMeshingFilters/FindGBCD.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SurfaceMeshing/Documentation/SurfaceMeshingFilters/FindGBCDMetricBased.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SurfaceMeshing/Documentation/SurfaceMeshingFilters/FindGBPDMetricBased.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SurfaceMeshing/Documentation/SurfaceMeshingFilters/FindDistsToCharactGBs.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SurfaceMeshing/Documentation/SurfaceMeshingFilters/FindTriangleGeomCentroids.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SurfaceMeshing/Documentation/SurfaceMeshingFilters/FindTriangleGeomNeighbors.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SurfaceMeshing/Documentation/SurfaceMeshingFilters/FindTriangleGeomShapes.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SurfaceMeshing/Documentation/SurfaceMeshingFilters/FindTriangleGeomSizes.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SurfaceMeshing/Documentation/SurfaceMeshingFilters/GenerateFaceIPFColoring.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SurfaceMeshing/Documentation/SurfaceMeshingFilters/GenerateFaceMisorientationColoring.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SurfaceMeshing/Documentation/SurfaceMeshingFilters/GenerateGeometryConnectivity.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SurfaceMeshing/Documentation/SurfaceMeshingFilters/LaplacianSmoothing.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SurfaceMeshing/Documentation/SurfaceMeshingFilters/QuickSurfaceMesh.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SurfaceMeshing/Documentation/SurfaceMeshingFilters/ReverseTriangleWinding.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SurfaceMeshing/Documentation/SurfaceMeshingFilters/SharedFeatureFaceFilter.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SurfaceMeshing/Documentation/SurfaceMeshingFilters/TriangleAreaFilter.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SurfaceMeshing/Documentation/SurfaceMeshingFilters/TriangleCentroidFilter.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SurfaceMeshing/Documentation/SurfaceMeshingFilters/TriangleDihedralAngleFilter.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SurfaceMeshing/Documentation/SurfaceMeshingFilters/TriangleNormalFilter.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SurfaceMeshing/Documentation/SurfaceMeshingFilters/FeatureFaceCurvatureFilter.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SyntheticBuilding/Documentation/SyntheticBuildingFilters/AddBadData.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SyntheticBuilding/Documentation/SyntheticBuildingFilters/AddOrientationNoise.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SyntheticBuilding/Documentation/SyntheticBuildingFilters/EstablishMatrixPhase.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SyntheticBuilding/Documentation/SyntheticBuildingFilters/EstablishShapeTypes.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SyntheticBuilding/Documentation/SyntheticBuildingFilters/InitializeSyntheticVolume.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SyntheticBuilding/Documentation/SyntheticBuildingFilters/InsertAtoms.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SyntheticBuilding/Documentation/SyntheticBuildingFilters/InsertPrecipitatePhases.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SyntheticBuilding/Documentation/SyntheticBuildingFilters/JumbleOrientations.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SyntheticBuilding/Documentation/SyntheticBuildingFilters/MatchCrystallography.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/SyntheticBuilding/Documentation/SyntheticBuildingFilters/PackPrimaryPhases.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/StatsGenerator/Documentation/StatsGeneratorFilters/StatsGeneratorFilter.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/StatsGenerator/Documentation/StatsGeneratorFilters/GeneratePrimaryStatsData.md" \
+"/Users/mjackson/Workspace/DREAM3D/Source/Plugins/StatsGenerator/Documentation/StatsGeneratorFilters/GeneratePrecipitateStatsData.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/Anisotropy/Documentation/AnisotropyFilters/AdaptiveAlignmentFeature.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/Anisotropy/Documentation/AnisotropyFilters/AdaptiveAlignmentMisorientation.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/Anisotropy/Documentation/AnisotropyFilters/AdaptiveAlignmentMutualInformation.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/Anisotropy/Documentation/AnisotropyFilters/SteinerCompact.md" \
+"/Users/mjackson/Workspace/DREAM3D_Plugins/BrukerIntegration/Documentation/BrukerIntegrationFilters/BrukerRawEBSDImport.md" \
+"/Users/mjackson/Workspace/DREAM3D_Plugins/CAxisByPolarizedLight/Documentation/CAxisByPolarizedLightFilters/FindAvgSinesForCAxisPatches.md" \
+"/Users/mjackson/Workspace/DREAM3D_Plugins/CAxisByPolarizedLight/Documentation/CAxisByPolarizedLightFilters/FindCAxisFromPolarizedLight.md" \
+"/Users/mjackson/Workspace/DREAM3D_Plugins/CAxisByPolarizedLight/Documentation/CAxisByPolarizedLightFilters/FitSineCurves.md" \
+"/Users/mjackson/Workspace/DREAM3D_Plugins/CAxisByPolarizedLight/Documentation/CAxisByPolarizedLightFilters/ImageCoRegistrationSimple.md" \
+"/Users/mjackson/Workspace/DREAM3D_Plugins/CAxisByPolarizedLight/Documentation/CAxisByPolarizedLightFilters/ImportImageMontage.md" \
+"/Users/mjackson/Workspace/DREAM3D_Plugins/CAxisByPolarizedLight/Documentation/CAxisByPolarizedLightFilters/MultiImageRegistrationSimple.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/DDDAnalysisToolbox/Documentation/DDDAnalysisToolboxFilters/LocalDislocationDensityCalculator.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/DDDAnalysisToolbox/Documentation/DDDAnalysisToolboxFilters/IdentifyDislocationSegments.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/DDDAnalysisToolbox/Documentation/DDDAnalysisToolboxFilters/DiscretizeDDDomain.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/DDDAnalysisToolbox/Documentation/DDDAnalysisToolboxFilters/ParaDisReader.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/DREAM3DReview/Documentation/DREAM3DReviewFilters/ApplyTransformationToGeometry.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/DREAM3DReview/Documentation/DREAM3DReviewFilters/AverageEdgeFaceCellArrayToVertexArray.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/DREAM3DReview/Documentation/DREAM3DReviewFilters/AverageVertexArrayToEdgeFaceCellArray.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/DREAM3DReview/Documentation/DREAM3DReviewFilters/ComputeUmeyamaTransform.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/DREAM3DReview/Documentation/DREAM3DReviewFilters/CopyObject.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/DREAM3DReview/Documentation/DREAM3DReviewFilters/CreateGeometry.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/DREAM3DReview/Documentation/DREAM3DReviewFilters/CropVertexGeometry.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/DREAM3DReview/Documentation/DREAM3DReviewFilters/DBSCAN.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/DREAM3DReview/Documentation/DREAM3DReviewFilters/ExtractAttributeArraysFromGeometry.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/DREAM3DReview/Documentation/DREAM3DReviewFilters/ExtractInternalSurfacesFromTriangleGeometry.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/DREAM3DReview/Documentation/DREAM3DReviewFilters/FindArrayStatistics.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/DREAM3DReview/Documentation/DREAM3DReviewFilters/FindElementCentroids.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/DREAM3DReview/Documentation/DREAM3DReviewFilters/FindNorm.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/DREAM3DReview/Documentation/DREAM3DReviewFilters/KDistanceGraph.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/DREAM3DReview/Documentation/DREAM3DReviewFilters/KMeans.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/DREAM3DReview/Documentation/DREAM3DReviewFilters/KMedoids.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/DREAM3DReview/Documentation/DREAM3DReviewFilters/NormalizeArrays.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/DREAM3DReview/Documentation/DREAM3DReviewFilters/PointSampleTriangleGeometry.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/DREAM3DReview/Documentation/DREAM3DReviewFilters/PottsModel.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/DREAM3DReview/Documentation/DREAM3DReviewFilters/PrincipalComponentAnalysis.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/DREAM3DReview/Documentation/DREAM3DReviewFilters/RemoveFlaggedVertices.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/DREAM3DReview/Documentation/DREAM3DReviewFilters/RobustAutomaticThreshold.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/DREAM3DReview/Documentation/DREAM3DReviewFilters/Silhouette.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/DREAM3DReview/Documentation/DREAM3DReviewFilters/SplitAttributeArray.md" \
+"/Users/mjackson/Workspace/DREAM3D_Plugins/EMsoftToolbox/Documentation/EMsoftToolboxFilters/EMsoftMCOpenCL.md" \
+"/Users/mjackson/Workspace/DREAM3D_Plugins/EMsoftToolbox/Documentation/EMsoftToolboxFilters/EMsoftGetGPUInfo.md" \
+"/Users/mjackson/Workspace/DREAM3D_Plugins/EMsoftToolbox/Documentation/EMsoftToolboxFilters/EMsoftEBSDmaster.md" \
+"/Users/mjackson/Workspace/DREAM3D_Plugins/EMsoftToolbox/Documentation/EMsoftToolboxFilters/EMsoftMakeXtal.md" \
+"/Users/mjackson/Workspace/DREAM3D_Plugins/EMsoftToolbox/Documentation/EMsoftToolboxFilters/EMsoftGetEBSDPatterns.md" \
+"/Users/mjackson/Workspace/DREAM3D_Plugins/EMsoftToolbox/Documentation/EMsoftToolboxFilters/EMsoftSO3Sampler.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/FiberToolbox/Documentation/FiberToolboxFilters/DetectEllipsoids.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/HEDMAnalysis/Documentation/HEDMAnalysisFilters/ReadMicData.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/HEDMAnalysis/Documentation/HEDMAnalysisFilters/TesselateFarFieldGrains.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ITKImageProcessing/Documentation/ITKImageProcessingFilters/ITKImageReader.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ITKImageProcessing/Documentation/ITKImageProcessingFilters/ITKImageWriter.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ITKImageProcessing/Documentation/ITKImageProcessingFilters/ITKImportImageStack.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ImageProcessing/Documentation/ImageProcessingFilters/ItkAutoThreshold.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ImageProcessing/Documentation/ImageProcessingFilters/ItkBinaryWatershedLabeled.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ImageProcessing/Documentation/ImageProcessingFilters/ItkConvertArrayTo8BitImage.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ImageProcessing/Documentation/ImageProcessingFilters/ItkConvertArrayTo8BitImageAttributeMatrix.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ImageProcessing/Documentation/ImageProcessingFilters/ItkDetermineStitchingCoordinatesGeneric.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ImageProcessing/Documentation/ImageProcessingFilters/ItkDiscreteGaussianBlur.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ImageProcessing/Documentation/ImageProcessingFilters/ItkFindMaxima.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ImageProcessing/Documentation/ImageProcessingFilters/ItkGaussianBlur.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ImageProcessing/Documentation/ImageProcessingFilters/ItkGrayToRGB.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ImageProcessing/Documentation/ImageProcessingFilters/ItkHoughCircles.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ImageProcessing/Documentation/ImageProcessingFilters/ItkImageCalculator.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ImageProcessing/Documentation/ImageProcessingFilters/ItkImageMath.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ImageProcessing/Documentation/ImageProcessingFilters/ItkKdTreeKMeans.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ImageProcessing/Documentation/ImageProcessingFilters/ItkKMeans.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ImageProcessing/Documentation/ImageProcessingFilters/ItkManualThreshold.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ImageProcessing/Documentation/ImageProcessingFilters/ItkMeanKernel.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ImageProcessing/Documentation/ImageProcessingFilters/ItkMedianKernel.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ImageProcessing/Documentation/ImageProcessingFilters/ItkMultiOtsuThreshold.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ImageProcessing/Documentation/ImageProcessingFilters/ItkRGBToGray.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ImageProcessing/Documentation/ImageProcessingFilters/ItkSobelEdge.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ImageProcessing/Documentation/ImageProcessingFilters/ItkStitchImages.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ImageProcessing/Documentation/ImageProcessingFilters/ItkWatershed.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ImageProcessing/Documentation/ImageProcessingFilters/ItkWriteImage.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/MASSIFUtilities/Documentation/MASSIFUtilitiesFilters/FFTHDFWriterFilter.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/MASSIFUtilities/Documentation/MASSIFUtilitiesFilters/ImportMASSIFData.md" \
+"/Users/mjackson/Workspace/DREAM3D_Plugins/NETLIntegration/Documentation/NETLIntegrationFilters/ReadNanoCTFile.md" \
+"/Users/mjackson/Workspace/DREAM3D_Plugins/NETLIntegration/Documentation/NETLIntegrationFilters/TileData.md" \
+"/Users/mjackson/Workspace/DREAM3D_Plugins/ProcessModeling/Documentation/ProcessModelingFilters/FindOptimalZones.md" \
+"/Users/mjackson/Workspace/DREAM3D_Plugins/ProcessModeling/Documentation/ProcessModelingFilters/FindUnionOfMasks.md" \
+"/Users/mjackson/Workspace/DREAM3D_Plugins/ProcessModeling/Documentation/ProcessModelingFilters/ImportRegisteredImageMontage.md" \
+"/Users/mjackson/Workspace/DREAM3D_Plugins/ProcessModeling/Documentation/ProcessModelingFilters/InterpolateMeshToRegularGrid.md" \
+"/Users/mjackson/Workspace/DREAM3D_Plugins/ProcessModeling/Documentation/ProcessModelingFilters/ReadDEFORMFile.md" \
+"/Users/mjackson/Workspace/DREAM3D_Plugins/ProcessModeling/Documentation/ProcessModelingFilters/ReadDEFORMPointTrackingFile.md" \
+"/Users/mjackson/Workspace/DREAM3D_Plugins/ProcessModeling/Documentation/ProcessModelingFilters/ReadDEFORMPointTrackingFileV11.md" \
+"/Users/mjackson/Workspace/DREAM3D_Plugins/ProcessModeling/Documentation/ProcessModelingFilters/ReadProCASTAttributeData.md" \
+"/Users/mjackson/Workspace/DREAM3D_Plugins/ProcessModeling/Documentation/ProcessModelingFilters/ReadProCASTGeometry.md" \
+"/Users/mjackson/Workspace/DREAM3D_Plugins/ProcessModeling/Documentation/ProcessModelingFilters/SampleExteriorPoints.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ProgWorkshop/Documentation/ProgWorkshopFilters/Lesson1.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ProgWorkshop/Documentation/ProgWorkshopFilters/Lesson2.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ProgWorkshop/Documentation/ProgWorkshopFilters/Lesson3.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ProgWorkshop/Documentation/ProgWorkshopFilters/Lesson4.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ProgWorkshop/Documentation/ProgWorkshopFilters/Lesson5.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ProgWorkshop/Documentation/ProgWorkshopFilters/Lesson6.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/ProgWorkshop/Documentation/ProgWorkshopFilters/Lesson7.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/TransformationPhase/Documentation/TransformationPhaseFilters/FindCSLBoundaries.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/TransformationPhase/Documentation/TransformationPhaseFilters/InsertTransformationPhases.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/TransformationPhase/Documentation/TransformationPhaseFilters/TiDwellFatigueCrystallographicAnalysis.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/UCSBUtilities/Documentation/UCSBUtilitiesFilters/ClearDataMask.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/UCSBUtilities/Documentation/UCSBUtilitiesFilters/CopyAttributeArray.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/UCSBUtilities/Documentation/UCSBUtilitiesFilters/CopyAttributeMatrix.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/UCSBUtilities/Documentation/UCSBUtilitiesFilters/CopyDataContainer.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/UCSBUtilities/Documentation/UCSBUtilitiesFilters/FindBoundaryAreas.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/UCSBUtilities/Documentation/UCSBUtilitiesFilters/FindDirectionalModuli.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/UCSBUtilities/Documentation/UCSBUtilitiesFilters/FindModulusMismatch.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/UCSBUtilities/Documentation/UCSBUtilitiesFilters/GenerateMisorientationColors.md" \
+"/Users/mjackson/Workspace/DREAM3D/ExternalProjects/Plugins/UCSBUtilities/Documentation/UCSBUtilitiesFilters/InputCrystalCompliances.md" \
+"/Users/mjackson/Workspace/DREAM3D_Plugins/VtkToolbox/Documentation/VtkToolboxFilters/VtkVisualizationFilter.md" \
+"/Users/mjackson/Workspace/DREAM3D_Plugins/ZeissImport/Documentation/ZeissImportFilters/CalculateBackground.md" \
+"/Users/mjackson/Workspace/DREAM3D_Plugins/ZeissImport/Documentation/ZeissImportFilters/ZeissImportFilter.md" \
+"/Users/mjackson/Workspace/DREAM3D-Build/Debug/Documentation/ReferenceManual/FilterDocumentation.dox"
+#FILE_PATTERNS     = *.dox *.md *.cpp *.hpp *.h *.c
+FILE_PATTERNS     = *.dox *.cpp *.hpp *.h *.c
+RECURSIVE         = YES
+TAGFILES          =
+ALLEXTERNALS      = NO
+PERL_PATH         = /usr/local/bin/perl
+SEARCHENGINE      = NO
+STRIP_CODE_COMMENTS = NO
+EXAMPLE_PATH      = ""
+
+#---------------------------------------------------------------------------
+# configuration options related to the LaTeX output
+#---------------------------------------------------------------------------
+GENERATE_LATEX    = NO
+LATEX_HEADER      = 
+LATEX_OUTPUT      = DREAM3D
+PDF_HYPERLINKS    = YES
+USE_PDFLATEX      = YES
+LATEX_BATCHMODE   = YES
+
+#---------------------------------------------------------------------------
+# configuration options related to the HTML output
+#---------------------------------------------------------------------------
+GENERATE_HTML = YES
+HTML_OUTPUT = DREAM3D
+HTML_FILE_EXTENSION = .html
+HTML_HEADER = 
+HTML_FOOTER = 
+HTML_STYLESHEET = 
+HTML_EXTRA_STYLESHEET = 
+HTML_EXTRA_FILES = 
+GENERATE_HTMLHELP = NO
+CHM_FILE =
+HHC_LOCATION =
+GENERATE_CHI = NO
+BINARY_TOC = NO
+TOC_EXPAND = NO
+DISABLE_INDEX = NO
+ENUM_VALUES_PER_LINE = 4
+GENERATE_TREEVIEW = YES
+TREEVIEW_WIDTH = 250
+SEARCHENGINE = YES
+USE_MATHJAX = YES
+
+#---------------------------------------------------------------------------
+# configuration options related to the Qt Help output
+#---------------------------------------------------------------------------
+GENERATE_QHP           = NO
+QCH_FILE               = DREAM3D.qch
+QHP_NAMESPACE          = net.bluequartzsoftware.DREAM3D
+QHP_VIRTUAL_FOLDER     = DREAM3D
+QHP_CUST_FILTER_NAME   = 
+QHP_CUST_FILTER_ATTRS  = 
+QHP_SECT_FILTER_ATTRS  = 
+QHG_LOCATION           = /Users/Shared/DREAM3D_SDK/Qt5.9.1/5.9.1/clang_64/lib/cmake/Qt5/../../bin/qhelpgenerator
+
+

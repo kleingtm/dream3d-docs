@@ -1,0 +1,876 @@
+/*!
+
+@page filterdocumentation Filter Documentation
+
+@subpage corefilters
+
+@subpage testfilters
+
+@subpage emmpmfilters
+
+@subpage genericfilters
+
+@subpage imageiofilters
+
+@subpage iofilters
+
+@subpage orientationanalysisfilters
+
+@subpage processingfilters
+
+@subpage reconstructionfilters
+
+@subpage samplingfilters
+
+@subpage statisticsfilters
+
+@subpage surfacemeshingfilters
+
+@subpage syntheticbuildingfilters
+
+@subpage statsgeneratorfilters
+
+@subpage anisotropyfilters
+
+@subpage brukerintegrationfilters
+
+@subpage caxisbypolarizedlightfilters
+
+@subpage cellularautomatafilters
+
+@subpage dddanalysistoolboxfilters
+
+@subpage dream3dreviewfilters
+
+@subpage emsofttoolboxfilters
+
+@subpage fibertoolboxfilters
+
+@subpage hedmanalysisfilters
+
+@subpage itkimageprocessingfilters
+
+@subpage imageprocessingfilters
+
+@subpage massifutilitiesfilters
+
+@subpage netlintegrationfilters
+
+@subpage processmodelingfilters
+
+@subpage progworkshopfilters
+
+@subpage transformationphasefilters
+
+@subpage ucsbutilitiesfilters
+
+@subpage vtktoolboxfilters
+
+@subpage zeissimportfilters
+
+
+*/
+
+/*!
+@page corefilters CoreFilters
+
+@subpage arraycalculator
+
+@subpage combineattributearrays
+
+@subpage combineattributematrices
+
+@subpage conditionalsetvalue
+
+@subpage convertdata
+
+@subpage copyfeaturearraytoelementarray
+
+@subpage createattributematrix
+
+@subpage createdatacontainer
+
+@subpage createdataarray
+
+@subpage createfeaturearrayfromelementarray
+
+@subpage createimagegeometry
+
+@subpage createstringarray
+
+@subpage datacontainerreader
+
+@subpage datacontainerwriter
+
+@subpage executeprocess
+
+@subpage extractcomponentasarray
+
+@subpage featurecountdecision
+
+@subpage featuredatacsvwriter
+
+@subpage findderivatives
+
+@subpage generatecolortable
+
+@subpage importascidataarray
+
+@subpage linkfeaturemaptoelementarray
+
+@subpage maskcountdecision
+
+@subpage movedata
+
+@subpage movemultidata
+
+@subpage multithresholdobjects
+
+@subpage multithresholdobjects2
+
+@subpage postslackmessage
+
+@subpage rawbinaryreader
+
+@subpage readasciidata
+
+@subpage removearrays
+
+@subpage removecomponentfromarray
+
+@subpage renameattributearray
+
+@subpage renameattributematrix
+
+@subpage renamedatacontainer
+
+@subpage replacevalueinarray
+
+@subpage requiredzthickness
+
+@subpage scalevolume
+
+@subpage setoriginresolutionimagegeom
+
+@subpage writeasciidata
+
+@subpage writetrianglegeometry
+
+*/
+
+/*!
+@page testfilters TestFilters
+
+@subpage thresholdexample
+
+@subpage arrayselectionexample
+
+@subpage genericexample
+
+@subpage dynamictableexample
+
+@subpage makedatacontainer
+
+@subpage errorwarningfilter
+
+@subpage filtergroup01
+
+@subpage filtergroup02
+
+@subpage filtergroup03
+
+@subpage filtergroup04
+
+@subpage filtergroup05
+
+@subpage filtergroup06
+
+@subpage filtergroup07
+
+@subpage filtergroup08
+
+@subpage filtergroup09
+
+@subpage filtergroup10
+
+@subpage filtergroup12
+
+@subpage filtergroup13
+
+*/
+
+/*!
+@page emmpmfilters EMMPMFilters
+
+@subpage emmpmfilter
+
+@subpage multiemmpmfilter
+
+*/
+
+/*!
+@page genericfilters GenericFilters
+
+@subpage findboundarycells
+
+@subpage findboundingboxfeatures
+
+@subpage findfeaturecentroids
+
+@subpage findfeaturephases
+
+@subpage findfeaturephasesbinary
+
+@subpage findsurfacefeatures
+
+@subpage generatevectorcolors
+
+*/
+
+/*!
+@page imageiofilters ImageIOFilters
+
+@subpage importimagestack
+
+@subpage importvectorimagestack
+
+@subpage writeimages
+
+*/
+
+/*!
+@page iofilters IOFilters
+
+@subpage abaqushexahedronwriter
+
+@subpage abaqussurfacemeshwriter
+
+@subpage avizorectilinearcoordinatewriter
+
+@subpage avizouniformcoordinatewriter
+
+@subpage dxreader
+
+@subpage dxwriter
+
+@subpage featureinforeader
+
+@subpage gbcdtriangledumper
+
+@subpage losalamosfftwriter
+
+@subpage phreader
+
+@subpage phwriter
+
+@subpage readstlfile
+
+@subpage spparkstextreader
+
+@subpage spparkswriter
+
+@subpage visualizegbcdgmt
+
+@subpage visualizegbcdpolefigure
+
+@subpage vtkrectilineargridwriter
+
+@subpage vtkstructuredpointsreader
+
+@subpage writestlfile
+
+*/
+
+/*!
+@page orientationanalysisfilters OrientationAnalysisFilters
+
+@subpage baddataneighbororientationcheck
+
+@subpage changeanglerepresentation
+
+@subpage converthexgridtosquaregrid
+
+@subpage convertorientations
+
+@subpage createensembleinfo
+
+@subpage createlambertsphere
+
+@subpage ebsdtoh5ebsd
+
+@subpage ensembleinforeader
+
+@subpage findavgcaxes
+
+@subpage findavgorientations
+
+@subpage findboundarystrengths
+
+@subpage findcaxislocations
+
+@subpage findfeatureneighborcaxismisalignments
+
+@subpage findfeaturereferencecaxismisorientations
+
+@subpage findfeaturereferencemisorientations
+
+@subpage findkernelavgmisorientations
+
+@subpage findmisorientations
+
+@subpage findschmids
+
+@subpage findsliptransmissionmetrics
+
+@subpage findtwinboundaries
+
+@subpage findtwinboundaryschmidfactors
+
+@subpage inlwriter
+
+@subpage generateipfcolors
+
+@subpage neighbororientationcorrelation
+
+@subpage readangdata
+
+@subpage readctfdata
+
+@subpage readedaxh5data
+
+@subpage readh5ebsd
+
+@subpage replaceelementattributeswithneighborvalues
+
+@subpage rotateeulerrefframe
+
+@subpage writeipfstandardtriangle
+
+@subpage writepolefigure
+
+@subpage writestatsgenodfanglefile
+
+@subpage orientationutility
+
+@subpage stereographic3d
+
+*/
+
+/*!
+@page processingfilters ProcessingFilters
+
+@subpage convertcolortograyscale
+
+@subpage erodedilatebaddata
+
+@subpage erodedilatecoordinationnumber
+
+@subpage erodedilatemask
+
+@subpage fillbaddata
+
+@subpage findprojectedimagestatistics
+
+@subpage findrelativemotionbetweenslices
+
+@subpage identifysample
+
+@subpage initializedata
+
+@subpage minneighbors
+
+@subpage minsize
+
+@subpage removeflaggedfeatures
+
+*/
+
+/*!
+@page reconstructionfilters ReconstructionFilters
+
+@subpage alignsectionsfeature
+
+@subpage alignsectionsfeaturecentroid
+
+@subpage alignsectionslist
+
+@subpage alignsectionsmisorientation
+
+@subpage alignsectionsmutualinformation
+
+@subpage caxissegmentfeatures
+
+@subpage ebsdsegmentfeatures
+
+@subpage mergecolonies
+
+@subpage mergetwins
+
+@subpage scalarsegmentfeatures
+
+@subpage computefeaturerect
+
+*/
+
+/*!
+@page samplingfilters SamplingFilters
+
+@subpage appendimagegeometryzslice
+
+@subpage changeresolution
+
+@subpage cropimagegeometry
+
+@subpage extractflaggedfeatures
+
+@subpage nearestpointfuseregulargrids
+
+@subpage regulargridsamplesurfacemesh
+
+@subpage regularizezspacing
+
+@subpage rotatesamplerefframe
+
+@subpage samplesurfacemeshspecifiedpoints
+
+@subpage uncertainregulargridsamplesurfacemesh
+
+@subpage warpregulargrid
+
+*/
+
+/*!
+@page statisticsfilters StatisticsFilters
+
+@subpage calculatearrayhistogram
+
+@subpage computemomentinvariants2d
+
+@subpage findavgscalarvalueforfeatures
+
+@subpage findboundaryelementfractions
+
+@subpage finddifferencemap
+
+@subpage findeuclideandistmap
+
+@subpage findfeatureclustering
+
+@subpage findlargestcrosssections
+
+@subpage findneighborhoods
+
+@subpage findneighbors
+
+@subpage findnumfeatures
+
+@subpage findshapes
+
+@subpage findsizes
+
+@subpage findsurfaceareatovolume
+
+@subpage findvolfractions
+
+@subpage fitfeaturedata
+
+@subpage generateensemblestatistics
+
+*/
+
+/*!
+@page surfacemeshingfilters SurfaceMeshingFilters
+
+@subpage findgbcd
+
+@subpage findgbcdmetricbased
+
+@subpage findgbpdmetricbased
+
+@subpage finddiststocharactgbs
+
+@subpage findtrianglegeomcentroids
+
+@subpage findtrianglegeomneighbors
+
+@subpage findtrianglegeomshapes
+
+@subpage findtrianglegeomsizes
+
+@subpage generatefaceipfcoloring
+
+@subpage generatefacemisorientationcoloring
+
+@subpage generategeometryconnectivity
+
+@subpage laplaciansmoothing
+
+@subpage quicksurfacemesh
+
+@subpage reversetrianglewinding
+
+@subpage sharedfeaturefacefilter
+
+@subpage triangleareafilter
+
+@subpage trianglecentroidfilter
+
+@subpage triangledihedralanglefilter
+
+@subpage trianglenormalfilter
+
+@subpage featurefacecurvaturefilter
+
+*/
+
+/*!
+@page syntheticbuildingfilters SyntheticBuildingFilters
+
+@subpage addbaddata
+
+@subpage addorientationnoise
+
+@subpage establishmatrixphase
+
+@subpage establishshapetypes
+
+@subpage initializesyntheticvolume
+
+@subpage insertatoms
+
+@subpage insertprecipitatephases
+
+@subpage jumbleorientations
+
+@subpage matchcrystallography
+
+@subpage packprimaryphases
+
+*/
+
+/*!
+@page statsgeneratorfilters StatsGeneratorFilters
+
+@subpage statsgeneratorfilter
+
+@subpage generateprimarystatsdata
+
+@subpage generateprecipitatestatsdata
+
+*/
+
+/*!
+@page anisotropyfilters AnisotropyFilters
+
+@subpage adaptivealignmentfeature
+
+@subpage adaptivealignmentmisorientation
+
+@subpage adaptivealignmentmutualinformation
+
+@subpage steinercompact
+
+*/
+
+/*!
+@page brukerintegrationfilters BrukerIntegrationFilters
+
+@subpage brukerrawebsdimport
+
+*/
+
+/*!
+@page caxisbypolarizedlightfilters CAxisByPolarizedLightFilters
+
+@subpage findavgsinesforcaxispatches
+
+@subpage findcaxisfrompolarizedlight
+
+@subpage fitsinecurves
+
+@subpage imagecoregistrationsimple
+
+@subpage importimagemontage
+
+@subpage multiimageregistrationsimple
+
+*/
+
+/*!
+@page cellularautomatafilters CellularAutomataFilters
+
+*/
+
+/*!
+@page dddanalysistoolboxfilters DDDAnalysisToolboxFilters
+
+@subpage localdislocationdensitycalculator
+
+@subpage identifydislocationsegments
+
+@subpage discretizedddomain
+
+@subpage paradisreader
+
+*/
+
+/*!
+@page dream3dreviewfilters DREAM3DReviewFilters
+
+@subpage applytransformationtogeometry
+
+@subpage averageedgefacecellarraytovertexarray
+
+@subpage averagevertexarraytoedgefacecellarray
+
+@subpage computeumeyamatransform
+
+@subpage copyobject
+
+@subpage creategeometry
+
+@subpage cropvertexgeometry
+
+@subpage dbscan
+
+@subpage extractattributearraysfromgeometry
+
+@subpage extractinternalsurfacesfromtrianglegeometry
+
+@subpage findarraystatistics
+
+@subpage findelementcentroids
+
+@subpage findnorm
+
+@subpage kdistancegraph
+
+@subpage kmeans
+
+@subpage kmedoids
+
+@subpage normalizearrays
+
+@subpage pointsampletrianglegeometry
+
+@subpage pottsmodel
+
+@subpage principalcomponentanalysis
+
+@subpage removeflaggedvertices
+
+@subpage robustautomaticthreshold
+
+@subpage silhouette
+
+@subpage splitattributearray
+
+*/
+
+/*!
+@page emsofttoolboxfilters EMsoftToolboxFilters
+
+@subpage emsoftmcopencl
+
+@subpage emsoftgetgpuinfo
+
+@subpage emsoftebsdmaster
+
+@subpage emsoftmakextal
+
+@subpage emsoftgetebsdpatterns
+
+@subpage emsoftso3sampler
+
+*/
+
+/*!
+@page fibertoolboxfilters FiberToolboxFilters
+
+@subpage detectellipsoids
+
+*/
+
+/*!
+@page hedmanalysisfilters HEDMAnalysisFilters
+
+@subpage readmicdata
+
+@subpage tesselatefarfieldgrains
+
+*/
+
+/*!
+@page itkimageprocessingfilters ITKImageProcessingFilters
+
+@subpage itkimagereader
+
+@subpage itkimagewriter
+
+@subpage itkimportimagestack
+
+*/
+
+/*!
+@page imageprocessingfilters ImageProcessingFilters
+
+@subpage itkautothreshold
+
+@subpage itkbinarywatershedlabeled
+
+@subpage itkconvertarrayto8bitimage
+
+@subpage itkconvertarrayto8bitimageattributematrix
+
+@subpage itkdeterminestitchingcoordinatesgeneric
+
+@subpage itkdiscretegaussianblur
+
+@subpage itkfindmaxima
+
+@subpage itkgaussianblur
+
+@subpage itkgraytorgb
+
+@subpage itkhoughcircles
+
+@subpage itkimagecalculator
+
+@subpage itkimagemath
+
+@subpage itkkdtreekmeans
+
+@subpage itkkmeans
+
+@subpage itkmanualthreshold
+
+@subpage itkmeankernel
+
+@subpage itkmediankernel
+
+@subpage itkmultiotsuthreshold
+
+@subpage itkrgbtogray
+
+@subpage itksobeledge
+
+@subpage itkstitchimages
+
+@subpage itkwatershed
+
+@subpage itkwriteimage
+
+*/
+
+/*!
+@page massifutilitiesfilters MASSIFUtilitiesFilters
+
+@subpage ffthdfwriterfilter
+
+@subpage importmassifdata
+
+*/
+
+/*!
+@page netlintegrationfilters NETLIntegrationFilters
+
+@subpage readnanoctfile
+
+@subpage tiledata
+
+*/
+
+/*!
+@page processmodelingfilters ProcessModelingFilters
+
+@subpage findoptimalzones
+
+@subpage findunionofmasks
+
+@subpage importregisteredimagemontage
+
+@subpage interpolatemeshtoregulargrid
+
+@subpage readdeformfile
+
+@subpage readdeformpointtrackingfile
+
+@subpage readdeformpointtrackingfilev11
+
+@subpage readprocastattributedata
+
+@subpage readprocastgeometry
+
+@subpage sampleexteriorpoints
+
+*/
+
+/*!
+@page progworkshopfilters ProgWorkshopFilters
+
+@subpage lesson1
+
+@subpage lesson2
+
+@subpage lesson3
+
+@subpage lesson4
+
+@subpage lesson5
+
+@subpage lesson6
+
+@subpage lesson7
+
+*/
+
+/*!
+@page transformationphasefilters TransformationPhaseFilters
+
+@subpage findcslboundaries
+
+@subpage inserttransformationphases
+
+@subpage tidwellfatiguecrystallographicanalysis
+
+*/
+
+/*!
+@page ucsbutilitiesfilters UCSBUtilitiesFilters
+
+@subpage cleardatamask
+
+@subpage copyattributearray
+
+@subpage copyattributematrix
+
+@subpage copydatacontainer
+
+@subpage findboundaryareas
+
+@subpage finddirectionalmoduli
+
+@subpage findmodulusmismatch
+
+@subpage generatemisorientationcolors
+
+@subpage inputcrystalcompliances
+
+*/
+
+/*!
+@page vtktoolboxfilters VtkToolboxFilters
+
+@subpage vtkvisualizationfilter
+
+*/
+
+/*!
+@page zeissimportfilters ZeissImportFilters
+
+@subpage calculatebackground
+
+@subpage zeissimportfilter
+
+*/
+
